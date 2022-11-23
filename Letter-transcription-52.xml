@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter by Franz Brentano to Carl Stumpf (BrL 1652)</title>
+            <author>Franz Brentano</author>
+            <editor>Course X-Technologien SoSe 2022</editor>
+            <respStmt>
+               <resp>TEI encoding</resp>
+               <persName>
+                  <forename>Fabio</forename>
+                  <surname>Rovigo</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>
+               <name>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</name>
+               <address>
+                  <street>Universitätsplatz 3</street>
+                  <postCode>8010</postCode>
+                  <settlement>Graz</settlement>
+                  <country key="AU">Österreich</country>
+               </address>
+            </publisher>
+            <availability>
+               <licence>CC BY-NC 4.0</licence>
+            </availability>
+            <ref target="http://gams.uni-graz.at/viewer/viewer.html?mets=https://gams.uni-graz.at/cocoon/mets2json?source=http%3A%2F%2Fgams.uni-graz.at%2Fo%3Abag.brl.1652%2FMETS_SOURCE#page/1/mode/1up"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution> Franz Brentano Foundation, Boston</institution>
+                  <msName>BrL 1652: Brentano Franz an Stumpf Carl </msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <docDate when="1889-02-01"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folio">
+                              <seg xml:lang="en"> 3 folios</seg>
+                              <dimensions>
+                                 <height>177 mm</height>
+                                 <width>115 mm</width>
+                              </dimensions>
+                           </measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc> <p>The letter is written with dark blue ink. The three folios constist of one bent paper sheet</p></layoutDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Brentano</surname>
+               </persName>
+               <settlement>Wien</settlement>
+               <date when="1889-02-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Carl Stumpf</persName>
+            </correspAction>
+            <correspContext>
+               <ab>Part of a correspondence dating from 1867 till 1917 </ab>
+               <ab>Previous letter: 1888-12-21</ab>
+               <ab>Next letter: 1990-02-14</ab>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="Brentano" source="http://viaf.org/viaf/59104031">
+            <persName>
+               <forename>Franz</forename>
+               <surname>Brentano</surname>
+            </persName>
+            <occupation>philosopher</occupation>
+         </person>
+         <person xml:id="Stumpf" source="http://viaf.org/viaf/51853096">
+            <persName>
+               <forename>Carl</forename>
+               <surname>Stumpf</surname>
+            </persName>
+            <occupation>philosopher</occupation>
+            <occupation>psychologist</occupation>
+         </person>
+         <person xml:id="Husserl" source="http://viaf.org/viaf/44300322">
+               <persName>
+                  <forename>Edmund</forename>
+                  <surname>Husserl</surname>
+               </persName>
+            <occupation>philosopher</occupation>
+         </person>
+         <person xml:id="Prince_Rudolf" source="http://viaf.org/viaf/72186675">
+            <persName>
+               <forename>Rudolf Franz Karl Joseph</forename>
+               <surname>von Habsburg Lothringen</surname>
+               <genName> Crown Prince of Austria</genName> 
+            </persName>
+         </person>
+         <person xml:id="Kaiser_FJ" source="http://viaf.org/viaf/32787948">
+            <persName>
+               <forename> Franz Joseph I</forename>
+               <surname>von Habsburg Lothringen</surname>
+               <genName> Emperor of Austria</genName> 
+            </persName>
+         </person>
+      </listPerson>
+ <listBibl>
+    <head>Mentioned works</head>
+    <bibl xml:id="Brentano_1889">Brentano Franz,1889: Vom Ursprung sittlicher Erkenntnis </bibl>
+    <bibl xml:id="Stumpf_1890">Stumpf Carl,1890: Tonpsychologie. 2 Bände. Hirzel, Leipzig 1883–1890</bibl>
+      </listBibl>
+   </standOff>
+   <facsimile>
+      <surface xml:id="BrL_1652">
+         <graphic url="Brentano_Stumpf_1652_1.jpg"/>
+         <graphic url="Brentano_Stumpf_1652_2.jpg"/>
+         <graphic url="Brentano_Stumpf_1652_3.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+               <div type="transcription" xml:id="div1">
+                  <pb n="1" facs="Brentano_Stumpf_1652_1.jpg"/> 
+                  <note type="foliation" hand="#pencil" place="under-left">1652-1</note>
+            <opener>
+               <handShift rend="large"/>
+               <dateline rend="right">
+                  <placeName>Wien</placeName> <date when="1889-02-01">1. Febr 89</date>
+               </dateline>
+               <salute rend="align(center)"><rs ref="#Stumpf">Lieber Freund!</rs></salute>
+            </opener>
+                  
+            <p>  
+               Verzeihen Sie, wenn ich 
+               <lb/> 
+               erst heute für Ihre lieben 
+               <lb/>
+               Wünsche danke. 
+               <lb/>
+               Ich war viel unwohl den 
+               <lb/> 
+               Winter, so zwar, daß die 
+               <lb/> 
+               Vorbereitung für einen Vor- 
+               <lb/> 
+               trag, den ich am 23. Jan 
+               <lb/> 
+               in der juristischen Gesell-
+               <lb/> 
+               schaft hielt, mir bei 
+               <lb/> 
+               meinen sonstigen Arbeiten
+               <lb/> 
+               eine drückende Last war. 
+               <lb/>
+               Jetzt ist das vorüber. 
+               <lb/>
+            </p>
+                  </div>
+         <div type="transcription" xml:id="div2" facs="Brentano_Stumpf_1652_1.jpg">
+                  <pb n="2" /> 
+                  <note type="foliation" hand="#pencil" place="under-left">1652-2</note>
+                  <p> Vielleicht lasse ich ihn -
+                     <lb/>
+                     ich sprach über 2 Stunden und 
+                     <lb/>
+                     gab in nute eine ganze 
+                     <lb/>
+                     Ethik - <rs ref="#Brentano_1889">drucken</rs>, und es würde mich 
+                     <lb/>
+                     freuen, Ihnen zum 
+                     <lb/>
+                     Entgelt für Ihre vielen 
+                     <lb/>
+                     literarischen Gaben, einmal
+                     <lb/>
+                     wieder ein wissenschaftliches
+                     <lb/>
+                     Lebenszeichen zukommen zu 
+                     <lb/>
+                     lassen.
+                     <lb/>
+                     Es freut mich, daß Ihr 
+                     <lb/>
+                     <rs ref="#Stumpf_1890"> 2. Band </rs> vorwärts schreitet
+                  <pb n="3"/>
+                     <placeName>Wien</placeName> ist schwarz beflaggt.
+                     <lb/>
+                     Alles trauert mit dem 
+                     <lb/>
+                     guten <persName ref="#Kaiser_FJ">Kaiser</persName> wegen des
+                     <lb/>
+                     Selbstmords seines einzigen 
+                     <lb/>
+                     <rs ref="#Prince_Rudolf">Sohnes</rs>. Das sind die Folgen der 
+                     <lb/>
+                     sittlichen <reg>Korruption<orig>Corruption</orig></reg> der 
+                     <lb/>
+               aristokratischen Kreise. 
+                     <lb/> Ein hochbegabter junger 
+                     <lb/>Fürst fällt durch eigene 
+                     <lb/>
+                     Hand! Und wie soll da 
+                     <lb/>
+                     geholfen werden, wo die 
+                     <lb/>Vorurteile es nicht gestatten,
+               </p>
+               </div>
+         <div type="transcription" xml:id="div3" facs="Brentano_Stumpf_1652_3.jpg">
+                     <pb n="4" />
+                     <p>
+               die Prinzen in der Gesell-
+                        <lb/>
+                        schaft einer minder ver-
+                        <lb/>
+                        derbten bürgerlichen Jugend 
+                        <lb/>
+                        aufwachsen zu lassen?
+                        <lb/>
+                        Europa ist krank in 
+                        <lb/>
+                        allen Teilen,  <reg>und <orig>u.</orig></reg> wer weiß, 
+                        <lb/>
+                        ob es noch Mittel gibt, 
+                        <lb/>
+                        es vor dem drohenden 
+                        <lb/>
+                        Untergang zu retten.
+               </p>             
+                     <closer >
+                        
+                        <salute >Mit freundlichen Grüßen
+                           <lb/>
+                           von Haus zu Haus 
+                           <lb/>
+                           Ihr treuergebene
+                        </salute>
+                        <signed rend="align(right)"><persName ref="#Brentano">Franz Brentano</persName> </signed>
+                     </closer> 
+                  </div>   
+                  <div>   
+         <p>
+            <handShift rend="small size and less white spaces"/>
+            <persName ref="#Husserl">Husserl</persName> gelegentlich meinen Gruß 
+            <lb/>
+            und Dank für seine freundlichen Zeilen!
+         </p>
+         </div>   
+             
+      </body>
+   </text>
+</TEI>

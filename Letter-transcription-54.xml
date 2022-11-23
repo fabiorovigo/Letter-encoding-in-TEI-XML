@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter by Franz Brentano to Carl Stumpf (BrL 1654)</title>
+            <author>Franz Brentano</author>
+            <editor>Course X-Technologien SoSe 2022</editor>
+            <respStmt>
+               <resp>TEI encoding</resp>
+               <persName>
+                  <forename>Fabio</forename>
+                  <surname>Rovigo</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>
+               <name>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</name>
+               <address>
+                  <street>Universitätsplatz 3</street>
+                  <postCode>8010</postCode>
+                  <settlement>Graz</settlement>
+                  <country key="AU">Österreich</country>
+               </address>
+            </publisher>
+            <availability>
+               <licence>CC BY-NC 4.0</licence>
+            </availability>
+            <ref target="http://gams.uni-graz.at/viewer/viewer.html?mets=https://gams.uni-graz.at/cocoon/mets2json?source=http%3A%2F%2Fgams.uni-graz.at%2Fo%3Abag.brl.1654%2FMETS_SOURCE#page/3/mode/1up"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution> Franz Brentano Foundation, Boston</institution>
+                  <msName>BrL 1654: Brentano Franz an Stumpf Carl </msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <docDate when="1889-03-06"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                 
+                     <supportDesc>
+                        <extent>
+                           <measure type="folio">
+                              <seg xml:lang="en"> 3 folios</seg>
+                              <dimensions>
+                                 <height>177  mm</height>
+                                 <width>115 mm</width>
+                              </dimensions>
+                           </measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc> <p>The letter is written with dark blue ink. The three folios consist of one bent paper sheet</p></layoutDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Brentano</surname>
+               </persName>
+               <settlement>Wien</settlement>
+               <date when="1889-03-06"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Carl Stumpf</persName>
+            </correspAction>
+            <correspContext>
+               <ab>Part of a correspondence dating between 1867 and 1917. 135 letters by Brentano to Stumpf are preserved in the Nachlass</ab>
+               <ab>Previous letter: 1889-02-15</ab>
+               <ab>Next letter: 1990-01-22</ab>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="Brentano" source="http://viaf.org/viaf/59104031">
+            <persName>
+               <forename>Franz</forename>
+               <surname>Brentano</surname>
+            </persName>
+            <occupation>philosopher</occupation>
+         </person>
+         <person xml:id="Stumpf" source="http://viaf.org/viaf/51853096">
+            <persName>
+               <forename>Carl</forename>
+               <surname>Stumpf</surname>
+               
+            </persName>
+            <occupation>philosopher</occupation>
+            <occupation>psychologist</occupation>
+            
+         </person>
+         <person xml:id="Windelband" source="http://viaf.org/viaf/36996696">
+               <persName>
+                  <forename>Wilhelm</forename>
+                  <surname>Windelband</surname>
+               </persName>
+            <occupation>philosopher</occupation>
+         </person>
+         <person xml:id="Meinong" source="http://viaf.org/viaf/36996696">
+            <persName>
+               <forename>Alexius</forename>
+               <surname>Meinong</surname>
+            </persName>
+            <occupation>philosopher</occupation>
+         </person>
+         <person xml:id="Sigwart" source="http://viaf.org/viaf/22132921">
+            <persName>
+               <forename>Alexius</forename>
+               <surname>Sigwart</surname>
+            </persName>
+            <occupation>logician</occupation>
+            <occupation>philosopher</occupation>
+         </person>
+         <person xml:id="Marty" source="http://viaf.org/viaf/7497024">
+            <persName>
+               <forename>Anton</forename>
+               <surname>Marty</surname>
+            </persName>
+            <occupation>philosopher</occupation>
+         </person>
+         <person xml:id="Hillebrand" source="http://viaf.org/viaf/226834798">
+            <persName>
+               <forename>Franz</forename>
+               <surname>Hillebrand</surname>
+            </persName>
+            <occupation>psychologist</occupation>
+         </person>
+      </listPerson>
+ <listBibl>
+    <head>Mentioned works</head>
+    <bibl xml:id="Brentano_1889">Brentano Franz,1889: Vom Ursprung sittlicher Erkenntnis </bibl>
+    <bibl xml:id="Meinong_1886">Meinong Alexius, 1886: Zur erkenntnistheoretischen Würdigung des Gedächtnisses, Vierteljahrsschrift für wissenschaftliche Philosophie 10: 7–33 </bibl>
+    <bibl xml:id="Sigwart_1873">Sigwart, H.C.W., 1873: Die Lehre von Urteil, von Begriff und von Schluss. J.C.B. Mohr </bibl>
+    <bibl xml:id="Sigwart_1886">Sigwart, H.C.W., 1886: Vorfragen der Ethik </bibl>
+    <bibl xml:id="Sigwart_1888">Sigwart, H.C.W:, 1888: Die Impersonalien, eine logische Untersuchung.</bibl>
+    </listBibl>
+   </standOff>
+   <facsimile>
+      <surface xml:id="Letter_7">
+         <graphic url="Brentano_Stumpf_86_1.jpg"/>
+         <graphic url="Brentano_Stumpf_86_2.jpg"/>
+         <graphic url="Brentano_Stumpf_86_3.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="transcription" xml:id="div1" facs="Brentano_Stumpf_86_1.jpg">
+                  <pb n="1" /> 
+                  <note type="foliation" hand="#pencil" place="under-left">1654-1</note>
+            <opener>
+               <handShift rend="bigger size" style="decorated initials"/>
+               <dateline rend="right">
+                  <placeName>Wien</placeName> <date when="1889-03-06"><reg>der <orig>d</orig></reg> 6. März 89</date>
+               </dateline>
+               <salute rend="align(center)"><rs ref="#Stumpf">Lieber Freund!</rs></salute>
+            </opener>
+            <p> 
+               <handShift rend="medium size"/>
+               Die relativ so erfreulichen <lb/> Nachrichten Ihres Briefes <lb/> haben mich sehr
+               getröstet. Ich <lb/> hätte schon dafür gedankt  <reg>und <orig>u.</orig></reg> <lb/> um weitere Mitteilungen <lb/>
+               gebeten. Doch für den Augen- <lb/> blick absorbiert mich die letzte <lb/> Revision
+                  <rs ref="#Brentano1889"> meiner Schrift</rs>, die <lb/> ich heute nach
+                  <placeName>Leipzig</placeName>
+               <lb/> vom Stapel laufen ließ. Nun <lb/> mag Gott ihr Schicksal lenken. <lb/>
+               <rs ref="#Brentano1889"> Sie</rs> ist, denke ich, von allem, was </p>
+            <p/>
+               </div>
+         <div type="transcription" xml:id="div2" facs="Brentano_Stumpf_86_2.jpg">
+            <pb n="2" /> 
+            <note type="foliation" hand="#pencil" place="under-left">1654-2</note>
+            <p> 
+               <handShift rend="medium size"/>
+               ich noch herausgegeben, das <lb/> Reifste und Beste. <lb/> Taugt es aber nichts,
+               <lb/> so kann ich mir wenig- <lb/> stens sagen, an meinem Fleiß <reg>und <orig>u.</orig></reg> <lb/> guten Willen
+               hats nicht ge- <lb/> fehlt. Ob und wie man in <lb/>
+               <placeName>Deutschland </placeName>darauf reagieren <lb/> werde, das wird sich jetzt
+               <lb/> bald zeigen. Schweigt man, so <lb/> dürfte dies nur etwa aus Feig- <lb/> heit
+               erklärlich sein. Denn Heraus- <lb/> forderung liegt in dem <rs ref="#Brentano1889">
+                  Büch- <lb/> lein </rs> genug, obwohl es nur etwa <lb/> 7 Druckbogen stark sein
+               dürfte. <lb/> Besonders hart bin ich mit <lb/>
+               <persName ref="#Sigwart">Sigwart</persName> aneinander geraten; seine <lb/>
+               <pb n="3" /> 
+               
+               <rs ref="#Sigwart1873"> Lehren </rs> von der Existenz, vom negativen Urteil, von der
+               Evi- <lb/> denz und den Postulaten und endlich auch noch - wofür er <lb/> Ihnen
+               dankbar sein mag - sein <lb/>
+               <rs ref="#Sigwart_1886">ethischer Subjektivismus</rs> , werden <lb/> einer scharfen
+               Kritik unterzogen. <lb/> Unlieb wäre es mir, wenn diese <lb/> Angriffe wie eine Art
+               Racheakt <lb/> für das gegen <persName ref="#Marty ">Marty </persName>versuchte <rs ref="#Sigwart_1888">Atten- <lb/> tat </rs> aufgefaßt würden, was <lb/> umso
+               leichter geschehen könnte, <lb/> als ich  <del instant="true">ihn </del><add instant="true" place="above"><rs ref="#Sigwart_1888">diesen </rs></add>zweimal zitiere. Um <lb/> diesen
+               Schein zu zerstören, trug <lb/> ich Sorge <persName ref="#Sigwart">Sigwart</persName>
+               auch ein paarmal beifällig zu erwähnen und <lb/> auch Ausdrücke der Anerkennung
+               einzuflechten. </p>
+         </div>
+         <div type="transcription" xml:id="div3" facs="Brentano_Stumpf_86_3.jpg">
+            <pb n="4" /> 
+            <note type="foliation" hand="#pencil" place="centre">1654-3</note>
+      
+            <p> 
+               <handShift rend="medium size"/>
+               Aber ich fürchte <lb/> der andere hört vor allem nur <lb/> "das Nein!". <lb/>
+               <persName ref="#Windelband">Wildelband</persName> bekommt auch sein <lb/> Teil ab und
+                  <persName ref="#Meinong">Meinong</persName> - den ich <lb/> zur Schonung nicht
+               nenne - einen <lb/> kräftigen Rippenstoß, den seine <lb/> unsinnige <rs
+                  ref="#Meinong_1866">Vermutungs-Evidenz </rs> und seine mannigfachen <lb/> kleinen
+               Schweinereien wohlverdienen. Er wird übrigens <lb/> - die Grazer verlangen es -
+               nächstens <lb/> Ordinarius. Seine letzten <rs ref="Meinong_1886"> Artikel </rs>
+               <lb/> sind herzlich schlecht. Die Zeit- <lb/> vorstellung soll - sagt mir <persName
+                  ref="#Hillebrand">Hillebrand</persName>
+               <lb/> auf Intensitätsunterschiede <lb/> zurückgeführt werden. Was wäre <lb/> dann die
+               <handShift rend="small size"/> 
+               Zukunft, wenn die Vergangenheit: <lb/> Gegenwart, wie Gegenwart: Zukunft? <lb/> Die
+                  <persName ref="#Meinong">Meinong</persName>s, fürchte ich, wird nicht die in- </p>
+            <pb/> 
+         </div>
+         <div type="transcription" xml:id="div4" >
+            <p>
+               <handShift rend="small size"/> 
+               <lb/>
+               tensivste Weisheit sein. 
+            </p>
+            <closer rend="align(right)">
+                  <salute rend="align(right)">Alles Gute vom Herz <lb/>Ihr </salute>
+               <signed rend="align(right)"><handShift rend="medium size"/> <persName ref="#Brentano">Franz Brentano</persName> </signed>
+               </closer> 
+            </div> 
+      </body>
+   </text>
+</TEI>
